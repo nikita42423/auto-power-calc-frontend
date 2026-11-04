@@ -7,7 +7,6 @@ import { App } from './app/App'
 import { FeedPage } from './pages/FeedPage/FeedPage'
 import { GridPage } from './pages/GridPage/GridPage'
 
-// Роутинг: App — общий макет, страницы выводятся в его <Outlet />
 const router = createBrowserRouter([
   {
     path: '/',

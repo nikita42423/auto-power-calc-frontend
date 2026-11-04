@@ -67,7 +67,6 @@ export const DEVICES_MOCK: Device[] = [
     power: 75,
     resistance: 2,
     description: 'Пылесос УРАЛ СМЕРЧ 5000; Li-Lon Аккумулятор; НЕРА фильтр; Мощный двигатель; Низкий уровень шума.',
-    // Поля пустые, чтобы показать изображение и видео по умолчанию
     image_url: '',
     video_url: '',
     real_url: 'https://ural-auto.ru/catalog/avtoelektronika/avtomobilnye-pylesosy/pylesos-ural-smerch-5000/',
@@ -112,7 +111,5 @@ export const DEVICES_MOCK: Device[] = [
   },
 ]
 
-// Гость видит только опубликованные услуги (как в лаб. 1).
-// Возвращает Promise, как будущий запрос к API, но данные берутся только из mock.
 export const getPublishedDevices = (): Promise<Device[]> =>
   Promise.resolve(DEVICES_MOCK.filter((device) => device.status === 'опубликован'))

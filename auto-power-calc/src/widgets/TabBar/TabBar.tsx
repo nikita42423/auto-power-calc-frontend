@@ -1,8 +1,6 @@
 import { Nav, Navbar } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 
-// Нижняя навигационная панель из 4 пунктов.
-// Гостю доступны только «Лента» и «Плитка», остальные disabled.
 export function TabBar() {
   return (
     <Navbar className="tab-bar">

@@ -12,11 +12,9 @@ interface Props {
   onSubmit: () => void
 }
 
-// Фильтр по мощности: два ползунка и кнопка «Найти».
-// Состояние хранится на странице, сюда приходит через props.
 export function PowerFilter({ powerMin, powerMax, setPowerMin, setPowerMax, onSubmit }: Props) {
   const handleSubmit = (event: FormEvent) => {
-    event.preventDefault() // не перезагружать страницу
+    event.preventDefault()
     onSubmit()
   }
 
