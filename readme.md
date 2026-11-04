@@ -1,4 +1,4 @@
-# Auto power calc — фронтенд (лабораторная 5)
+# Auto power calc frontend
 
 SPA на `React` + `TypeScript` (сборщик `Vite`) с компонентами `React-Bootstrap`.
 Интерфейс для **гостя**: просмотр услуг (устройств автомобиля) — их мощности и сопротивления.
